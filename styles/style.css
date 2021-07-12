@@ -2,6 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: #f3f1ff;
+  margin: 0px;
 }
 main {
   display: flex;
@@ -19,6 +20,50 @@ hr {
   border: 1px solid #d1d1d1;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+/* .........
+.....header */
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  background: #562eff;
+  width: 1440px;
+  height: 94px;
+  margin-right: 300px;
+}
+.companyname {
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+.logo img {
+  width: 40.42px;
+  height: 51px;
+  margin-right: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 35%;
+  margin-left: 12%;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.profile a {
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+  font-size: 16px;
+}
+.profile img {
+  width: 51px;
+  height: 51px;
 }
 
 /* players style */
@@ -79,45 +124,41 @@ blogs style
 latest section
 ..................... */
 
-.courses{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap:24px;
-    /* justify-content: space-between; */
-    align-items: center;
-
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+  /* justify-content: space-between; */
+  align-items: center;
 }
-.course{
-    border: 1px solid white;
-    padding: 5px   ;
-    width: 254px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11) ;
+.course {
+  border: 1px solid white;
+  padding: 5px;
+  width: 254px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);
 }
-.section-titleh2{
-   margin-top:  23px;
+.section-titleh2 {
+  margin-top: 23px;
 }
 .coursepic img {
   width: 224px;
   height: 104px;
   margin-top: 13px;
 }
-.course-rate{
-    display: flex;
-    align-items: center;
-    
-    
-
+.course-rate {
+  display: flex;
+  align-items: center;
 }
-.course-rate span{
-    margin-left: 3px;
+.course-rate span {
+  margin-left: 3px;
 }
-.course-rate .star{
-    color: #FFC014;
-    font-size: 12px;
-    margin-right:5px;
+.course-rate .star {
+  color: #ffc014;
+  font-size: 12px;
+  margin-right: 5px;
 }
-.course-duration{
-    background: #FFE4E8;
-    border-radius: 14.6913px;
+.course-duration {
+  background: #ffe4e8;
+  border-radius: 14.6913px;
 }
