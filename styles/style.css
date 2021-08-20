@@ -3,6 +3,8 @@ body {
   font-family: "Poppins", sans-serif;
   background: #f3f1ff;
   margin: 0px;
+  overflow-x:hidden;
+  
 }
 main {
   display: flex;
@@ -161,4 +163,9 @@ latest section
 .course-duration {
   background: #ffe4e8;
   border-radius: 14.6913px;
+}
+
+.suggest{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
